@@ -1,0 +1,81 @@
+You are an expert Python desktop application developer and UI/UX designer for Windows software.
+
+I will provide you with my existing Python application code.  
+Your tasks are:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+1️⃣ Analyze & Preserve Current Functionality
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Carefully read and analyze the existing code to fully understand all current features.
+- Keep all current functionality intact while upgrading the UI, performance, and code structure.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2️⃣ Upgrade UI to Modern Arabic PyQt6 Interface
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Use **PyQt6** for all interface components.
+- Full Arabic language support:
+  - Right-to-Left (RTL) layout for all screens.
+  - Arabic-friendly fonts (Cairo, Amiri, Tahoma).
+  - All labels, buttons, and messages in Arabic.
+- Modern design with:
+  - Sidebar navigation (المنتجات، العملاء، الموردين، التقارير، الخدمات، الإعدادات).
+  - Data tables with Arabic headers, search, sort, and filter.
+  - Forms with Arabic labels and validation messages.
+  - Dark Mode / Light Mode toggle.
+  - Notification popups in Arabic for alerts (مثال: "المخزون منخفض").
+  - Charts for reports with Arabic labels using PyQtGraph or Matplotlib.
+  - Quick search bar for products, clients, or suppliers.
+  - Multi-tab interface for opening multiple sections at once.
+  - Auto-save for form entries.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+3️⃣ Optimize Code & Structure
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Separate UI code, business logic, and database code into clean modules.
+- Use **SQLite** as the local database.
+- Add **auto-backup** feature:
+  - Save backups to a local folder.
+  - Optional integration with Google Drive API for cloud backups.
+- Improve loading speed and memory usage.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4️⃣ Deployment Preparation
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Create a `requirements.txt` with all needed dependencies.
+- Package the app into a standalone Windows executable (.exe) using **PyInstaller** or **cx_Freeze**.
+- Bundle all necessary DLLs and resources so the program runs without Python installed.
+- Create an installer using **Inno Setup** or **NSIS** that:
+  - Installs the application and all resources.
+  - Installs required dependencies if missing.
+  - Adds a desktop shortcut and Start Menu entry.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+5️⃣ Extra Features
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Settings page with:
+  - Language switch (Arabic / English).
+  - Backup schedule control.
+  - Default theme selection.
+- Responsive UI for different screen resolutions.
+- Ensure smooth animations and transitions for better UX.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+6️⃣ Deliverables
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Updated, fully functional Python code with PyQt6 Arabic UI and all added features.
+- `requirements.txt` file.
+- Build script for PyInstaller or cx_Freeze.
+- Installer script for Inno Setup or NSIS.
+- Step-by-step documentation on:
+  - Running the app locally.
+  - Building the EXE file.
+  - Packaging and distributing the app.
+  - Setting up auto-backup and Google Drive integration.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Important Notes:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- Keep all existing program features.
+- Make the UI at a professional commercial level.
+- Ensure full Arabic RTL support everywhere.
+- Code should be clean, modular, and documented.

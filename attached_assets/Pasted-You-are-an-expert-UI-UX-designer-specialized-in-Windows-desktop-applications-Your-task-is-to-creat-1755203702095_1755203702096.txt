@@ -1,0 +1,47 @@
+You are an expert UI/UX designer specialized in Windows desktop applications.
+Your task is to create a **full UI/UX design** for a Windows desktop application (local use) in Arabic language (Right-to-Left layout, full Arabic labels, Arabic-friendly fonts).
+
+The app is a **Mobile Shop Management System** with these Arabic-labeled modules:
+
+1. إدارة المنتجات والمخزون:
+   - إضافة / تعديل / حذف المنتجات (موبايلات، إكسسوارات، خطوط، إلخ).
+   - إدارة الكميات في المخزن مع تنبيه عند قرب نفاد المنتج.
+   - دعم الباركود لمسح المنتجات.
+   - إمكانية تحديد سعر البيع، سعر الشراء، والربح.
+
+2. إدارة العملاء والموردين:
+   - حفظ بيانات العملاء (الاسم، الهاتف، ملاحظات).
+   - حفظ بيانات الموردين ومتابعة الفواتير المدفوعة والآجلة.
+
+3. التقارير:
+   - تقارير المبيعات اليومية / الشهرية / السنوية.
+   - تقارير أرباح المنتجات والخدمات.
+   - تقرير شامل للمخزون.
+
+4. خدمات الرصيد والدفع:
+   - تسجيل عمليات شحن الرصيد للعملاء.
+   - تتبع أرباح كل خدمة (فودافون كاش، شحن خطوط، إلخ).
+   - تقارير شهرية لمبيعات الرصيد.
+
+UI/UX Requirements:
+- All UI text and labels must be in Arabic.
+- Layout must be Right-to-Left (RTL) compatible.
+- Use a clean, modern, and responsive Windows desktop UI.
+- Sidebar menu for navigation: (المنتجات، العملاء، الموردين، التقارير، الخدمات، الإعدادات).
+- Data tables with Arabic column headers, search, sort, and filter.
+- Forms with Arabic field labels and validation messages.
+- Graphs and charts with Arabic titles and labels.
+- Popup notifications in Arabic for stock alerts.
+- Toggle for الوضع الليلي / الوضع النهاري.
+
+Technical Requirements for design stage:
+- The deliverable should be **only the UI/UX design** in code (no database or backend logic).
+- Use Python PyQt5 or Tkinter, or C# WPF — only to render the interface for demonstration.
+- Include placeholder Arabic text and sample data.
+- Make sure fonts are Arabic-friendly (like "Cairo", "Amiri", or "Tahoma").
+- Organize the UI in modular files for future development.
+
+Deliverables:
+- Fully working UI mockup in Arabic (no backend functionality).
+- All screens and forms designed with sample Arabic data.
+- Instructions on how to run and preview the design locally.

@@ -1,0 +1,43 @@
+You are an expert Python desktop application developer.
+Update the existing Python program to have:
+1. A full, modern Arabic UI using PyQt6 (Right-to-Left layout, Arabic-friendly fonts such as Cairo or Amiri).
+2. Sidebar navigation for the main modules: "المنتجات", "العملاء", "الموردين", "التقارير", "الخدمات", "الإعدادات".
+3. Data tables with Arabic headers, search, sort, and filter.
+4. Forms with Arabic field labels and validation messages.
+5. Dark Mode and Light Mode toggle.
+6. Notification popups in Arabic for important alerts (مثل: "المخزون منخفض").
+7. Charts for reports (Arabic titles & labels) using PyQtGraph or Matplotlib.
+8. Auto-save feature for forms.
+9. Quick search bar to find products, clients, or suppliers instantly.
+10. Multi-tab support so the user can open multiple sections at once.
+
+Performance & Structure:
+- Optimize code for performance.
+- Use a modular structure: separate UI code, business logic, and database code into different files.
+- Local database: SQLite.
+- Add auto-backup of the database to a folder and allow integration with Google Drive API for optional cloud backup.
+- Ensure all Arabic text is fully RTL compatible.
+
+Deployment:
+- Create a `requirements.txt` file with all necessary Python packages.
+- Package the application into a Windows executable (.exe) using PyInstaller or cx_Freeze.
+- Include all necessary DLLs and assets so the program runs on any Windows machine without needing Python installed.
+- Create an installer (using Inno Setup or NSIS) that:
+    - Installs the application.
+    - Copies all DLLs and resources.
+    - Installs required dependencies automatically if not found.
+    - Places a shortcut on the desktop and Start Menu.
+
+Extra Features:
+- Add a Settings page to:
+    - Change language (Arabic/English).
+    - Set auto-backup schedule.
+    - Choose between Dark/Light mode by default.
+- Make the app responsive to different screen sizes.
+
+Deliverables:
+1. Updated Python code with PyQt6 Arabic UI and all features above.
+2. requirements.txt file.
+3. Build script for PyInstaller (or cx_Freeze).
+4. Installer script (Inno Setup or NSIS).
+5. Documentation on how to build, package, and distribute the program.

@@ -1,0 +1,14 @@
+[project]
+name = "repl-nix-workspace"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.10.5",
+    "pyinstaller>=6.15.0",
+    "pyqt6>=6.4.2",
+    "pyqt6-tools>=6.4.2.3.3",
+    "pyqtgraph>=0.13.7",
+    "requests>=2.32.4",
+    "schedule>=1.2.2",
+]
